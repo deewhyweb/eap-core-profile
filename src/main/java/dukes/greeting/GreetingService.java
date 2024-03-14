@@ -1,13 +1,12 @@
 package dukes.greeting;
 
+import jakarta.enterprise.context.RequestScoped;
+import java.time.LocalDate;
 // The GreetingService should be a request scoped CDI bean
+@RequestScoped
 public class GreetingService {
 
-    /**
-     * Helpful documentation:
-     * https://jakarta.ee/specifications/platform/10/apidocs/jakarta/enterprise/context/requestscoped
-     * https://jakarta.ee/specifications/platform/10/apidocs/jakarta/inject/package-summary.html
-     */
-
-    // Add a method that returns a hard-coded greeting as a GreetingRecord
+    public GreetingRecord getGreeting() {
+        return new GreetingRecord("hello", LocalDate.now());
+    }
 }

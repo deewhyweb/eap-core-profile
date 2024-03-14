@@ -1,6 +1,6 @@
 package dukes.greeting;
 
-import jakarta.enterprise.inject.Produces;
+import jakarta.ws.rs.Produces;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -15,7 +15,7 @@ public class GreetingResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public GreetingRecord greetingRecord() {
+    public GreetingRecord  getGreeting() {
         return greetingService.getGreeting();
     }
 
