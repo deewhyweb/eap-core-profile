@@ -188,7 +188,7 @@
                                 </feature-pack>
                             </feature-packs>
                             <layers>
-                                <layer>cloud-server</layer>
+                                <layer>ee-core-profile-server</layer>
                             </layers>
                             <filename>ROOT.war</filename>
                         </configuration>
