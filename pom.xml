@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dukes</groupId>
+    <groupId>deewhyweb</groupId>
     <artifactId>greeting</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Jakarta EE Overview - Challenge 3</name>
+    <name>Core Profile Greetings</name>
     <packaging>war</packaging>
 
     <properties>
